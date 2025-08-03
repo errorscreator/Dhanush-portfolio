@@ -354,7 +354,7 @@ body{
 }
 
 .education-header{
-    color: #7cf03d;
+    color: #fff;
     width: 200px;
     height: 100px;
     border: 2px solid chartreuse;
@@ -718,3 +718,4 @@ body{
         font-size: 15px;
     }
 }
+
