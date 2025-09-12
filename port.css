@@ -493,6 +493,9 @@ body{
     background-color: #222;
     margin: 10px;
 }
+.react-native{
+    padding-left: 12px;
+}
 .python{
     border: 2px solid #222;
     border-radius: 10px;
@@ -536,6 +539,14 @@ body{
     color: #fff;
     letter-spacing: 1px;
 }
+
+.projects-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 30px;
+}
+
 .center{
     display: flex;
     justify-content: center;
@@ -544,7 +555,7 @@ body{
 }
 
 .project{
-    width: 400px;
+    width: 550px;
     border: 2px solid #7cf03d;
     border-radius: 10px;
     text-align: center;
@@ -590,6 +601,12 @@ body{
     transform: scale(1.05);
 }
 
+.flexes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
 
 /* Contact Page */
 .container-5 h2{
@@ -687,12 +704,7 @@ body{
 }
 
 
-.projects-2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 30px;
-}
+
 @media screen and (max-width: 1250px){
     .projects-2{
         flex-direction: column;
@@ -717,5 +729,8 @@ body{
     .project p{
         font-size: 15px;
     }
+    .flexes{
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
-
