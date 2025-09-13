@@ -371,11 +371,10 @@ body{
     color: #e5e5e5;
 }
 
-
 .highschool{
     padding: 10px;
     border: 2px solid chartreuse;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     border-radius: 10px; 
     margin-top: 40px;
     
@@ -384,7 +383,7 @@ body{
 .University{
     padding: 10px;
     border: 2px solid chartreuse;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     border-radius: 10px; 
 }
 
@@ -392,6 +391,14 @@ body{
     padding: 10px;
     border: 2px solid chartreuse;
     border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.Internships{
+    padding: 10px;
+    border: 2px solid chartreuse;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 /* Skills Page */
